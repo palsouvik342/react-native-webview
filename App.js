@@ -15,7 +15,7 @@ const App = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={{flex: 1}}>
         <WebView 
-          source={{uri: 'https://thehss.com.au/'}}
+          source={{uri: 'https://thehss.com.au/admin-login'}}
           originWhitelist={['*']}
           javaScriptEnabledAndroid={true}
           injectedJavaScript={jsCode}
